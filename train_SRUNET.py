@@ -1,5 +1,3 @@
-# Linoy Ketashvili - 316220235
-# Alon Helvits - 315531087
 import os
 import random
 import wandb

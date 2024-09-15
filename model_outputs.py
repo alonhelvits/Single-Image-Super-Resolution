@@ -1,5 +1,3 @@
-# Linoy Ketashvili - 316220235
-# Alon Helvits - 315531087
 from models import SmallUNet_4X
 from data_classes import DIV2KDataset512Test
 from unet_utilts import calculate_ssim_psnr_for_single_image

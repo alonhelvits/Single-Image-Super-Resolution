@@ -6,9 +6,6 @@ A brief description of what the project does and who it's for.
 - [Installation](#installation)
 - [Usage](#usage)
 - [Run Commands](#run-commands)
-- [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -41,3 +38,19 @@ From the same link you can also download the CBSR model checkpoints to test the 
   - classifier_100_epochs.pth
   - man_made_800_model.pth
   - nature_800_model.pth
+
+## Run Commands
+To run a full training of a baseline model:
+```bash
+python3 main.py --baseline --dataset_path dataset/combined_500
+```
+
+If you downloaded the 3 model checkpoints:
+  - classifier_100_epochs.pth
+  - man_made_800_model.pth
+  - nature_800_model.pth
+
+You can run the test on the data:
+```bash
+python3 main.py --CBSR --dataset_path dataset/combined_500
+```

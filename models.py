@@ -1,5 +1,3 @@
-# Linoy Ketashvili - 316220235
-# Alon Helvits - 315531087
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
